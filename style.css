@@ -30,11 +30,16 @@ body {
 }
 #reaction {
   position: absolute;
-  top: 23 vh;
   right: 6vw;
-  height: 10vh;
-  width: 10vw;
+  height: 33vh;
+  width: 27.5vw;
   background: url('https://res.cloudinary.com/dh41vh9dx/image/upload/v1597415002/notFunny-5.gif');
+}
+.button-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 180px;
 }
 
 button {
